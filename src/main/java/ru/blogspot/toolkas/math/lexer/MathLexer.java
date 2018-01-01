@@ -62,7 +62,8 @@ public class MathLexer {
                     return null;
                 } else {
                     throw new TokenizeException(
-                            "unexpected character '" + ch + "' in state " + state
+                            "unexpected character '" + ch +
+                                    "' in state " + state
                     );
                 }
                 break;
