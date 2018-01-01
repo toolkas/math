@@ -49,10 +49,6 @@ public class MathLexer {
 
         switch (state) {
             case DEFAULT:
-                if (StringUtils.isNotBlank(value)) {
-                    throw new TokenizeException("value '" + value + "' must be empty");
-                }
-
                 if (Character.isDigit(ch)) {
                     state = TokenizeState.NUMBER_START;
                     position -= 1;
