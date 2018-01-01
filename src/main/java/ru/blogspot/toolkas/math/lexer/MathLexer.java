@@ -61,7 +61,9 @@ public class MathLexer {
                 } else if (Character.isWhitespace(ch)) {
                     return null;
                 } else {
-                    throw new TokenizeException("unexpected character '" + ch + "' in state " + state);
+                    throw new TokenizeException(
+                            "unexpected character '" + ch + "' in state " + state
+                    );
                 }
                 break;
             case NUMBER_START:
@@ -101,7 +103,8 @@ public class MathLexer {
 
     private int get() {
         position += 1;
-        return position < expression.length() ? expression.charAt(position) : -1;
+        return position < expression.length() ?
+                expression.charAt(position) : -1;
     }
 
     private Lexem createToken(Token token, boolean back) {
