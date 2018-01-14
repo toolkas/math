@@ -1,4 +1,4 @@
-package ru.blogspot.toolkas.math.evaluater;
+package ru.blogspot.toolkas.math.evaluator;
 
 import ru.blogspot.toolkas.math.lexer.Lexem;
 import ru.blogspot.toolkas.math.lexer.MathLexer;

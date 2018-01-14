@@ -1,6 +1,6 @@
 package ru.blogspot.toolkas.math;
 
-import ru.blogspot.toolkas.math.evaluater.MathEvaluator;
+import ru.blogspot.toolkas.math.evaluator.MathEvaluator;
 
 import java.util.Scanner;
 
