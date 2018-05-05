@@ -1,4 +1,4 @@
-package ru.blogspot.toolkas.math.evaluator;
+package ru.blogspot.toolkas.math.ll.evaluator;
 
 import org.junit.Assert;
 import org.junit.Test;

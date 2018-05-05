@@ -1,4 +1,4 @@
-package ru.blogspot.toolkas.math.parser;
+package ru.blogspot.toolkas.math.ll.parser;
 
 public class MathParseException extends Exception {
     public MathParseException() {

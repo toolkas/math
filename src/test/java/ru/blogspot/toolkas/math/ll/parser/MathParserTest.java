@@ -1,15 +1,15 @@
-package ru.blogspot.toolkas.math.parser;
+package ru.blogspot.toolkas.math.ll.parser;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.blogspot.toolkas.math.lexer.Lexem;
-import ru.blogspot.toolkas.math.lexer.MathLexer;
-import ru.blogspot.toolkas.math.lexer.Token;
-import ru.blogspot.toolkas.math.lexer.TokenizeException;
-import ru.blogspot.toolkas.math.parser.ast.Add;
-import ru.blogspot.toolkas.math.parser.ast.Expression;
-import ru.blogspot.toolkas.math.parser.ast.Minus;
-import ru.blogspot.toolkas.math.parser.ast.NumberAtom;
+import ru.blogspot.toolkas.math.ll.lexer.Lexem;
+import ru.blogspot.toolkas.math.ll.lexer.MathLexer;
+import ru.blogspot.toolkas.math.ll.lexer.Token;
+import ru.blogspot.toolkas.math.ll.lexer.TokenizeException;
+import ru.blogspot.toolkas.math.ll.parser.ast.Add;
+import ru.blogspot.toolkas.math.ll.parser.ast.Expression;
+import ru.blogspot.toolkas.math.ll.parser.ast.Minus;
+import ru.blogspot.toolkas.math.ll.parser.ast.NumberAtom;
 
 import java.util.ArrayList;
 import java.util.List;

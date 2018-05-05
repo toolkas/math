@@ -1,4 +1,4 @@
-package ru.blogspot.toolkas.math.parser.ast;
+package ru.blogspot.toolkas.math.ll.parser.ast;
 
 public class Add implements Expression {
     private final Expression left;

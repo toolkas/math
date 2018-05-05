@@ -1,9 +1,9 @@
-package ru.blogspot.toolkas.math.evaluator;
+package ru.blogspot.toolkas.math.ll.evaluator;
 
-import ru.blogspot.toolkas.math.lexer.Lexem;
-import ru.blogspot.toolkas.math.lexer.MathLexer;
-import ru.blogspot.toolkas.math.parser.MathParser;
-import ru.blogspot.toolkas.math.parser.ast.Expression;
+import ru.blogspot.toolkas.math.ll.lexer.Lexem;
+import ru.blogspot.toolkas.math.ll.lexer.MathLexer;
+import ru.blogspot.toolkas.math.ll.parser.MathParser;
+import ru.blogspot.toolkas.math.ll.parser.ast.Expression;
 
 import java.util.List;
 

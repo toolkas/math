@@ -1,12 +1,10 @@
-package ru.blogspot.toolkas.math;
-
-import ru.blogspot.toolkas.math.evaluator.MathEvaluator;
+package ru.blogspot.toolkas.math.rpn;
 
 import java.util.Scanner;
 
-public class MathConsole {
-    public static void main(String[] args) throws Exception {
-        MathEvaluator evaluator = new MathEvaluator();
+public class ReversePolishConsole {
+    public static void main(String[] args) {
+        ReversePolishEvaluator evaluator = new ReversePolishEvaluator();
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("expr>>");
             while (scanner.hasNextLine()) {

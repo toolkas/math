@@ -1,4 +1,4 @@
-package ru.blogspot.toolkas.math.parser.ast;
+package ru.blogspot.toolkas.math.ll.parser.ast;
 
 public class ExpressionAtom extends Atom {
     private final Expression expression;

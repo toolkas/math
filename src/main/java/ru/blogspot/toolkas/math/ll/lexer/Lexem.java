@@ -1,4 +1,4 @@
-package ru.blogspot.toolkas.math.lexer;
+package ru.blogspot.toolkas.math.ll.lexer;
 
 public class Lexem {
     private final Token token;

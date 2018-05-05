@@ -1,8 +1,8 @@
-package ru.blogspot.toolkas.math.parser;
+package ru.blogspot.toolkas.math.ll.parser;
 
-import ru.blogspot.toolkas.math.lexer.Lexem;
-import ru.blogspot.toolkas.math.lexer.Token;
-import ru.blogspot.toolkas.math.parser.ast.*;
+import ru.blogspot.toolkas.math.ll.lexer.Lexem;
+import ru.blogspot.toolkas.math.ll.lexer.Token;
+import ru.blogspot.toolkas.math.ll.parser.ast.*;
 
 import java.util.List;
 

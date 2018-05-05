@@ -1,4 +1,4 @@
-package ru.blogspot.toolkas.math.lexer;
+package ru.blogspot.toolkas.math.ll.lexer;
 
 import org.apache.commons.lang.StringUtils;
 
