@@ -53,6 +53,11 @@ public class ReversePolishEvaluator {
             }
         }
 
-        return Double.parseDouble(stack.pop());
+        String result = stack.pop();
+        if(!stack.isEmpty()) {
+            throw new IllegalArgumentException("expression[" + expression + "] is incorrect");
+        }
+
+        return Double.parseDouble(result);
     }
 }
