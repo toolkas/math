@@ -23,7 +23,6 @@ public class ReversePolishEvaluator {
 
             if (NumberUtils.isNumber(value)) {
                 stack.push(value);
-                continue;
             } else if (PLUS.equals(value)) {
                 String val2 = stack.pop();
                 String val1 = stack.pop();
